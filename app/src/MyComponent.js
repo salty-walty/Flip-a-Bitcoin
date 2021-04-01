@@ -9,10 +9,10 @@ export default ({ drizzle, drizzleState }) => {
   return (
     <div className="App">
       <div>
-        <img src={logo} alt="drizzle-logo" />
-        <h1>Drizzle Examples</h1>
+        <img src={logo} alt="drizzle-logo" className="logo" />
+        <h1>Flip a Bitcoin</h1>
         <p>
-          Examples of how to get started with Drizzle in various situations.
+          Providing provably fair Heads/Tails Bitcoin tosses with a little help from a very stinky VRF. 
         </p>
       </div>
 
